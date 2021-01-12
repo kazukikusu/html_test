@@ -1,1 +1,26 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/wScratchPad/wScratchPad.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+<div id="wScratchPad" style="width: 300px; height: 400px;"></div>
+  
+<script type="text/javascript">
+$(function(){
+    $("#wScratchPad").wScratchPad({
+    width: 350,
+    height: 200,
+    bg: './image/cat.jpg',
+    size: 10
+    });
+});
+</script>
+</body>
+</html>
+
