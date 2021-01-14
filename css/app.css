@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+  
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 78.195%;
+  }
+}
+  
+body {
+  font-size: 1.2rem;
+  line-height: 1.75em;
+}

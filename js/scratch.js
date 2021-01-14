@@ -5,6 +5,6 @@ $(function () {
         width: 350,
         height: 200,
         bg: './image/cat.jpg',
-        size: 10
+        size: 20
     });
 });

@@ -5,6 +5,9 @@ module.exports = {
   entry: {
     app: "./js/app.js",
     scratch: "./js/scratch.js",
+    countdown: "./js/countdown.js",
+    select: "./js/select.js",
+    peelback: "./js/peelback.js",
   },
   output: {
     path: __dirname + "/dist",
